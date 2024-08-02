@@ -6,7 +6,7 @@ const StoreContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
     // const url = "http://localhost:4004";
-    const url = "https://tomato-backend-4og6.vercel.app/";
+    const url = "https://food-del-backend-2rc3.onrender.com";
     const[food_list, setFoodList] = useState([]);
     const [token,setToken] = useState("");
     
